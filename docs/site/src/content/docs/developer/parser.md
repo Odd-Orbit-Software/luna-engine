@@ -23,7 +23,7 @@ Candidates carry priority/specificity and fallback information. The matcher prod
 
 The selected path shares effect/event/exit handling with assisted resolution. A clarification reply must not run an action twice. Full entity help reuses candidate and usability logic without executing effects.
 
-For exact ranking details, read [matching.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-core/src/runtime/matching.rs) alongside [commands.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-core/src/runtime/commands.rs).
+For exact ranking details, read [matching.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-core/src/runtime/matching.rs) alongside [commands.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-core/src/runtime/commands.rs).
 
 ## Ephemeral assistance
 

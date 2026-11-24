@@ -58,6 +58,6 @@ Return to the ring action. Add **END GAME**, select A clear note and connect it 
 
 **Save** the project, resolve blocking findings, then **Export** a `.luna` bundle. Follow [playing and sharing](/luna-engine/playing/sharing/) to import it into the terminal runner.
 
-For a ready-made puzzle choose **Start with The Locked Study example** when creating a separate project. The repository's [editable Locked Study](https://github.com/pmck91/luna-engine/tree/main/examples/locked-study) contains the owner's expanded story, including Tom and his toy; it differs from the small built-in template. Never replace your own project to try an example.
+For a ready-made puzzle choose **Start with The Locked Study example** when creating a separate project. The repository's [editable Locked Study](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/locked-study) contains the owner's expanded story, including Tom and his toy; it differs from the small built-in template. Never replace your own project to try an example.
 
 Continue with [Restore the Observatory](/luna-engine/tutorials/observatory/) for a complete game, or use the [feature map](/luna-engine/reference/feature-map/) to learn one system.

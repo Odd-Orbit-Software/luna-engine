@@ -43,4 +43,4 @@ Try the opening, every offered branch, an unavailable topic, interruption by an 
 
 An active conversation can retain a checkpoint for resumption. Save/load restores progress without replaying already-entered effects. Playtest buttons use current offers; a stale button or an unoffered reply cannot skip ahead. Noun clarification temporarily takes precedence over reply selection.
 
-The [Keeper's Key example](https://github.com/pmck91/luna-engine/tree/main/examples/keeper-quest) demonstrates once-only handover, terminal acknowledgement, loops and restoration.
+The [Keeper's Key example](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/keeper-quest) demonstrates once-only handover, terminal acknowledgement, loops and restoration.

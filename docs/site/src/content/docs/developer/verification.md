@@ -63,4 +63,4 @@ Explained execution takes additional state snapshots/diffs. A large simultaneous
 
 Record compiler, fixture sizes, sample counts and storage device. Save timings on tmpfs exclude physical-disk latency. Observations are not CI performance thresholds. Profile a realistic game before adding a complex cache or undo-log executor.
 
-Raw evidence is retained in the repository's [design measurement records](https://github.com/pmck91/luna-engine/tree/main/docs/design) and [hardening plan](https://github.com/pmck91/luna-engine/blob/main/docs/plans/core-hardening.md).
+Raw evidence is retained in the repository's [design measurement records](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/docs/design) and [hardening plan](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/docs/plans/core-hardening.md).

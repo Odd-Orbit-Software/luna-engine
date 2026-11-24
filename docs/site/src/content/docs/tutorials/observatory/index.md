@@ -13,7 +13,7 @@ The short [first adventure](/luna-engine/getting-started/first-adventure/) is a 
 
 - [Download the editable Observatory project](/luna-engine/downloads/observatory-project.zip). Extract its observatory folder inside your projects directory.
 - [Download the playable Observatory game](/luna-engine/downloads/observatory.luna).
-- [Browse the source and walkthrough](https://github.com/pmck91/luna-engine/tree/main/examples/observatory).
+- [Browse the source and walkthrough](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/observatory).
 
 The source ZIP includes LICENSE and NOTICE. When sharing the playable export or adapting the example, retain the applicable notices; see [licensing and game credits](/luna-engine/playing/licensing/).
 
@@ -31,7 +31,7 @@ Screenshots show the completed project in the current editor. They illustrate th
 6. [Help the player](/luna-engine/tutorials/observatory/06-assistance/): hints, clarification, help, optional undo and endings.
 7. [Test and share](/luna-engine/tutorials/observatory/07-testing/): search/templates/history, findings, setups/checks, export and saves.
 
-Each chapter ends with a small test. [Feature coverage](/luna-engine/reference/feature-map/) maps the wider guide to the tutorial. The source and screenshots are pinned by the [documentation evidence record](https://github.com/pmck91/luna-engine/blob/main/docs/site/evidence.json).
+Each chapter ends with a small test. [Feature coverage](/luna-engine/reference/feature-map/) maps the wider guide to the tutorial. The source and screenshots are pinned by the [documentation evidence record](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/docs/site/evidence.json).
 
 ## Complete player route
 

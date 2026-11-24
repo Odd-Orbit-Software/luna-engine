@@ -4,7 +4,7 @@ Status: **Historical U1 native proof, committed as `eca623f`**, 28 October 2026,
 
 ## Real native boundary
 
-The [candidate](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-core/src/undo_proof/mod.rs) attaches directly to [Session’s transaction](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-core/src/session.rs). Native initiating dispatch supplies a typed classification independently of turn cost and explanations. After all gameplay/timer/routine/conversation/bounds phases succeed, and before Session swaps state, the candidate compares the complete before/after world and admits the pre-input snapshot. Failure does not touch history. Action and selected-reply APIs share this boundary.
+The [candidate](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-core/src/undo_proof/mod.rs) attaches directly to [Session’s transaction](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-core/src/session.rs). Native initiating dispatch supplies a typed classification independently of turn cost and explanations. After all gameplay/timer/routine/conversation/bounds phases succeed, and before Session swaps state, the candidate compares the complete before/after world and admits the pre-input snapshot. Failure does not touch history. Action and selected-reply APIs share this boundary.
 
 The code is compiled only for core unit tests or the explicit `undo-proof` research feature. Ordinary builds contain neither the candidate, history fields, new parser interception nor classification hooks. Sessions in a proof build still require explicit `proof_enable_undo`; authored files are unchanged. The feature forwarding in editor/runner exists to test their real HTTP/storage code against this same candidate, without an author setting or production endpoint.
 
@@ -12,7 +12,7 @@ Undo decodes/validates the latest owned snapshot and prepares the restored scene
 
 ## Evidence
 
-The [31 native cases](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-core/src/undo_proof/tests.rs) and [five real-host cases](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-editor/src/undo_proof_tests.rs) / [runner cases](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-runner/tests/undo_proof.rs) cover:
+The [31 native cases](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-core/src/undo_proof/tests.rs) and [five real-host cases](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-editor/src/undo_proof_tests.rs) / [runner cases](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-runner/tests/undo_proof.rs) cover:
 
 | Boundary | Observed behaviour |
 | --- | --- |
@@ -74,7 +74,7 @@ cargo fmt --all --check
 cargo run -p luna-editor --example export_types -- --check
 ```
 
-The [benchmark](https://github.com/pmck91/luna-engine/blob/eca623f/crates/luna-runner/benches/undo_proof.rs) reuses the [populated routine fixture](../../../tests/support/routine_scaling.rs): 100/1,000/5,000 commands and objects, 32 earned quest journals and 64/256/1,024 paused routine states. Off/on commands run in the same proof build with equal world state; the off path performs no snapshot encoding. Measurements are observations, not CI timing assertions or a claim about maximum playable game size.
+The [benchmark](https://github.com/Odd-Orbit-Software/luna-engine/blob/eca623f/crates/luna-runner/benches/undo_proof.rs) reuses the [populated routine fixture](../../../tests/support/routine_scaling.rs): 100/1,000/5,000 commands and objects, 32 earned quest journals and 64/256/1,024 paused routine states. Off/on commands run in the same proof build with equal world state; the off path performs no snapshot encoding. Measurements are observations, not CI timing assertions or a claim about maximum playable game size.
 
 ## Remaining gates
 

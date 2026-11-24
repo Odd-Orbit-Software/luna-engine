@@ -15,7 +15,7 @@ Debug serves the local built frontend; release embeds it with rust-embed. Blockl
 
 ## API families
 
-All routes are under `/api/v1`. [router source](https://github.com/pmck91/luna-engine/blob/main/crates/luna-editor/src/lib.rs)
+All routes are under `/api/v1`. [router source](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-editor/src/lib.rs)
 
 | Routes                                                | Responsibility                                                        |
 | ----------------------------------------------------- | --------------------------------------------------------------------- |

@@ -34,7 +34,7 @@ Separate runner processes continue named/autosaves at entered greeting and rewar
 
 ## Proof promotion and verification
 
-The N1 test-only coordinator and its Session/effect/cursor interception are retired. Its 47 candidate checks remain available at [the N1 commit](https://github.com/pmck91/luna-engine/tree/ef05c93f56ff18dcd5250fd35800782f4e888ac6/crates/luna-core/src/runtime/narrative_proof), with their historical [evidence record](runtime-proof-review.md). Canonical N2 validation/persistence, N3 quest and N4 conversation tests cover those behaviours through the actual model/executor. Unit tests and shipping builds now use identical effect dispatch. No proof interpreter, proxy actions, alternative progress model or test-only Session execution API remains.
+The N1 test-only coordinator and its Session/effect/cursor interception are retired. Its 47 candidate checks remain available at [the N1 commit](https://github.com/Odd-Orbit-Software/luna-engine/tree/ef05c93f56ff18dcd5250fd35800782f4e888ac6/crates/luna-core/src/runtime/narrative_proof), with their historical [evidence record](runtime-proof-review.md). Canonical N2 validation/persistence, N3 quest and N4 conversation tests cover those behaviours through the actual model/executor. Unit tests and shipping builds now use identical effect dispatch. No proof interpreter, proxy actions, alternative progress model or test-only Session execution API remains.
 
 Verified on 27 October 2026:
 

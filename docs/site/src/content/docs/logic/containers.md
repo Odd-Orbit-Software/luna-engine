@@ -57,4 +57,4 @@ The **Command item** input refers to the item matched by this action. Use the na
 
 Before removing a storage capability, review affected contents/actions/references in the impact dialog. Do not leave items assigned to an unsupported interior or surface.
 
-Explore the separate [Packing the Study project](https://github.com/pmck91/luna-engine/tree/main/examples/packing-study) for nesting and edge cases.
+Explore the separate [Packing the Study project](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/packing-study) for nesting and edge cases.

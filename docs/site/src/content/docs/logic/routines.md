@@ -38,4 +38,4 @@ MOVE CHARACTER is direct placement. A drawn map connection is not pathfinding. P
 
 Open playtest's routine progress view for current status, next step, blocked requirements and waits. Restore a setup to test that boundary repeatedly.
 
-For a simple four-step patrol and optional labs, open the [Routine Workshop](https://github.com/pmck91/luna-engine/tree/main/examples/routine-workshop).
+For a simple four-step patrol and optional labs, open the [Routine Workshop](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/routine-workshop).

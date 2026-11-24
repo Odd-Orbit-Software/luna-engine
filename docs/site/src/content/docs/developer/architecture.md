@@ -46,4 +46,4 @@ These have different lifetimes and file boundaries. A Blockly block ID may be a 
 
 Add durable concepts in model/core first, validate and prove native behavior, then expose generated contracts and authoring projections. Keep compatibility explicit before accepting new serialized data. Use typed enums and focused modules rather than inheritance or an untyped event bus.
 
-The detailed [source map](/luna-engine/developer/components/) links every component. Historical design decisions and measurements remain in [repository design records](https://github.com/pmck91/luna-engine/tree/main/docs/design); those records are evidence, not a substitute for current API contracts.
+The detailed [source map](/luna-engine/developer/components/) links every component. Historical design decisions and measurements remain in [repository design records](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/docs/design); those records are evidence, not a substitute for current API contracts.

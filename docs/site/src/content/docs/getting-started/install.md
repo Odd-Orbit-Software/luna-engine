@@ -13,7 +13,7 @@ The application version is separate from your game’s content version and the p
 
 ## Use a packaged build
 
-Open [GitHub Releases](https://github.com/pmck91/luna-engine/releases) and choose the archive matching your OS and processor. Before the first release is published, use a successful [native package workflow](https://github.com/pmck91/luna-engine/actions/workflows/native-release.yml) and download its `release-package-<platform>` artifact. GitHub may require sign-in for Actions artifacts. Those artifacts wrap the actual archive and checksum in an additional ZIP.
+Open [GitHub Releases](https://github.com/Odd-Orbit-Software/luna-engine/releases) and choose the archive matching your OS and processor. Before the first release is published, use a successful [native package workflow](https://github.com/Odd-Orbit-Software/luna-engine/actions/workflows/native-release.yml) and download its `release-package-<platform>` artifact. GitHub may require sign-in for Actions artifacts. Those artifacts wrap the actual archive and checksum in an additional ZIP.
 
 | Platform          | Version 1 archive                         |
 | ----------------- | ----------------------------------------- |

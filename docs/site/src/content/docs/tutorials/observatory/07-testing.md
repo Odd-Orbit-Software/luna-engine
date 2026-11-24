@@ -50,6 +50,6 @@ The editable-project download includes layouts, setups/checks and acknowledgemen
 
 ## Keep the example reproducible
 
-The [feature map](/luna-engine/reference/feature-map/) links every system to a chapter. The source digest and capture record in [evidence.json](https://github.com/pmck91/luna-engine/blob/main/docs/site/evidence.json) let maintainers check when screenshots/downloads need refreshing.
+The [feature map](/luna-engine/reference/feature-map/) links every system to a chapter. The source digest and capture record in [evidence.json](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/docs/site/evidence.json) let maintainers check when screenshots/downloads need refreshing.
 
 After this game, use the focused workshop examples for deeper edge cases. You can build a much larger game without adding every advanced system to every puzzle.

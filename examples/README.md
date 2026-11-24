@@ -1,12 +1,12 @@
 # Example games
 
-Start with the [designer documentation](https://pmck91.github.io/luna-engine/) for guided instructions and downloads.
+Start with the [designer documentation](https://odd-orbit-software.github.io/luna-engine/) for guided instructions and downloads.
 
 ## Restore the Observatory
 
 `observatory/` and `observatory.luna` are the complete progressive tutorial project and native export. Build a small world, repair and calibrate a lens with Mira, complete a quest, open a timed shutter and restore the telescope. The tutorial also demonstrates routines, hints, player undo and the editor's testing workflow. Four native checkpoints and two saved checks are included in the editable project.
 
-Read the [tutorial](https://pmck91.github.io/luna-engine/tutorials/observatory/) or the [acceptance notes](observatory/ACCEPTANCE.md). The docs build checks source/export equality and screenshot provenance.
+Read the [tutorial](https://odd-orbit-software.github.io/luna-engine/tutorials/observatory/) or the [acceptance notes](observatory/ACCEPTANCE.md). The docs build checks source/export equality and screenshot provenance.
 
 ## The Locked Study
 

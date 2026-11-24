@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://pmck91.github.io',
+  site: 'https://odd-orbit-software.github.io',
   base: '/luna-engine',
   trailingSlash: 'always',
   integrations: [
@@ -15,11 +15,11 @@ export default defineConfig({
         {
           icon: 'github',
           label: 'GitHub',
-          href: 'https://github.com/pmck91/luna-engine',
+          href: 'https://github.com/Odd-Orbit-Software/luna-engine',
         },
       ],
       editLink: {
-        baseUrl: 'https://github.com/pmck91/luna-engine/edit/main/docs/site/',
+        baseUrl: 'https://github.com/Odd-Orbit-Software/luna-engine/edit/main/docs/site/',
       },
       customCss: ['./src/styles/custom.css'],
       sidebar: [

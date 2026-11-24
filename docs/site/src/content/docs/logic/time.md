@@ -34,4 +34,4 @@ A timer executes its own root: it does not retain a previous command item or a p
 
 Timers due together use priority and author order. They share the transaction and execution budget with the initiating input. An error in a due callback rolls back the whole attempt, including its clock change.
 
-Start with the tutorial's one timer. The [Timer Workshop](https://github.com/pmck91/luna-engine/tree/main/examples/timer-workshop) covers cancellation, guards and advanced ordering.
+Start with the tutorial's one timer. The [Timer Workshop](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/examples/timer-workshop) covers cancellation, guards and advanced ordering.

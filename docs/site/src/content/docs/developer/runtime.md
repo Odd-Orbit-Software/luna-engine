@@ -15,7 +15,7 @@ Use `Session::start_with_definition` for a fresh game and `restore_with_definiti
 
 ## Atomic attempt
 
-[Session implementation](https://github.com/pmck91/luna-engine/blob/main/crates/luna-core/src/session.rs)
+[Session implementation](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-core/src/session.rs)
 
 The attempt owns a complete state copy, output buffer, local frames, selected item input and shared operation/depth budget. Session calls the selected input path, then:
 

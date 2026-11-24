@@ -7,7 +7,7 @@ sidebar:
 
 ## luna-model: contracts and validation
 
-[Source](https://github.com/pmck91/luna-engine/tree/main/crates/luna-model/src)
+[Source](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/crates/luna-model/src)
 
 | Module                                     | Responsibility                                                                                                            |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ Types derive Serde and TypeScript contracts where appropriate. Validation checks
 
 ## luna-core: one interpreter
 
-[Source](https://github.com/pmck91/luna-engine/tree/main/crates/luna-core/src)
+[Source](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/crates/luna-core/src)
 
 | Module                                                     | Responsibility                                                            |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -52,19 +52,19 @@ The runtime modules cooperate through one private Run. Shared helpers do not mer
 
 ## luna-project: storage
 
-[lib.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-project/src/lib.rs) owns canonical JSON files, safe paths, revisions, atomic writes, recovery journals, asset reads, manifest hashes and ZIP import/export. [file_lock.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-project/src/file_lock.rs) owns lock lifetime.
+[lib.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-project/src/lib.rs) owns canonical JSON files, safe paths, revisions, atomic writes, recovery journals, asset reads, manifest hashes and ZIP import/export. [file_lock.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-project/src/file_lock.rs) owns lock lifetime.
 
 ## luna-editor: native host
 
-[main.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-editor/src/main.rs) binds loopback and launches the browser. [lib.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-editor/src/lib.rs) owns API routes, auth/host guards, project handles and static UI serving. [playtests.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-editor/src/playtests.rs) owns captures/checks and host continuations. [preferences.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-editor/src/preferences.rs) owns normalized personal UI state.
+[main.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-editor/src/main.rs) binds loopback and launches the browser. [lib.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-editor/src/lib.rs) owns API routes, auth/host guards, project handles and static UI serving. [playtests.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-editor/src/playtests.rs) owns captures/checks and host continuations. [preferences.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-editor/src/preferences.rs) owns normalized personal UI state.
 
 ## luna-runner: terminal host
 
-[lib.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-runner/src/lib.rs) owns Storage, prepared imports, installation records and save envelopes/locks/recovery. [main.rs](https://github.com/pmck91/luna-engine/blob/main/crates/luna-runner/src/main.rs) owns Clap arguments, configuration precedence, interactive/noninteractive decisions, input loop, autosave and rendering.
+[lib.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-runner/src/lib.rs) owns Storage, prepared imports, installation records and save envelopes/locks/recovery. [main.rs](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-runner/src/main.rs) owns Clap arguments, configuration precedence, interactive/noninteractive decisions, input loop, autosave and rendering.
 
 ## web: authoring application
 
-[Source](https://github.com/pmck91/luna-engine/tree/main/web/src)
+[Source](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/web/src)
 
 | Area                   | Principal files                                                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |

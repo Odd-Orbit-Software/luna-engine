@@ -60,4 +60,4 @@ Content 1 normally writes save 2; content 2–3 writes save 3; content 4/5/6 use
 
 Missing compatible historical narrative progress can default empty; a clock cannot be inferred from an untimed playthrough. Features under an older header are rejected or require explicit upgrade. Read the version-specific paths and regression fixtures before changing them.
 
-[Model source](https://github.com/pmck91/luna-engine/tree/main/crates/luna-model/src) and [storage source](https://github.com/pmck91/luna-engine/blob/main/crates/luna-project/src/lib.rs) are the authoritative contracts.
+[Model source](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/crates/luna-model/src) and [storage source](https://github.com/Odd-Orbit-Software/luna-engine/blob/main/crates/luna-project/src/lib.rs) are the authoritative contracts.

@@ -4,7 +4,7 @@ Prepared 29 October 2026 on `feature/documentation`, from merged editor cleanup 
 
 ## Available for review
 
-- Astro Starlight site in `docs/site`, configured for `https://pmck91.github.io/luna-engine/`, with the Luna logo, search, light/dark, sidebar, canonical metadata and sitemap.
+- Astro Starlight site in `docs/site`, configured for `https://odd-orbit-software.github.io/luna-engine/`, with the Luna logo, search, light/dark, sidebar, canonical metadata and sitemap.
 - 45 authored pages: beginner setup, editor workflows, game logic, player/export instructions, reference/recipes, three tutorial paths and a separate detailed developer section. Internal milestone records remain outside public navigation.
 - Seven-chapter **Restore the Observatory** tutorial, editable source and native `.luna` export, four native checkpoints and two saved checks. A feature matrix connects shipping systems to guides and tutorial exercises.
 - Eleven real current-editor screenshots, one component dependency diagram and source/screenshot hashes in `docs/site/evidence.json`. Captures use disposable project copies and preserve existing block rendering.

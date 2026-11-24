@@ -56,4 +56,4 @@ The core produces semantic text/colour spans. The host converts them to terminal
 
 Do not store terminal escapes in game text or saves. Quest log, conversation offers and restored endings come from the same core views as editor playtests.
 
-The complete [runner source](https://github.com/pmck91/luna-engine/tree/main/crates/luna-runner) includes real CLI tests for autosave/named slots/process restarts and benchmarks.
+The complete [runner source](https://github.com/Odd-Orbit-Software/luna-engine/tree/main/crates/luna-runner) includes real CLI tests for autosave/named slots/process restarts and benchmarks.

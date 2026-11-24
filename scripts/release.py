@@ -78,9 +78,9 @@ CI host: macOS 15. Windows: x64 MSVC with static C runtime, CI host: Server 2022
 Compare each archive's SHA-256 with its .sha256 sidecar. build.json inside each
 archive records exact source, target, toolchain and individual file hashes.
 
-[Documentation](https://pmck91.github.io/luna-engine/) ·
-[Installation](https://pmck91.github.io/luna-engine/getting-started/install/) ·
-[Licensing](https://pmck91.github.io/luna-engine/playing/licensing/)
+[Documentation](https://odd-orbit-software.github.io/luna-engine/) ·
+[Installation](https://odd-orbit-software.github.io/luna-engine/getting-started/install/) ·
+[Licensing](https://odd-orbit-software.github.io/luna-engine/playing/licensing/)
 
 This draft is for owner review. Verify downloads and desktop launches before
 publishing. Application version {version()} does not change game/save formats.

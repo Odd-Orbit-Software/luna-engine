@@ -21,7 +21,7 @@ Games publicly distributed or made publicly playable under the additional game p
 
 ```text
 Luna Engine by Peter McKinney (pmck91)
-https://github.com/pmck91/luna-engine
+https://github.com/Odd-Orbit-Software/luna-engine
 ```
 
 No splash screen or logo placement is required. For a terminal game, an accompanying README is sufficient. There is no automatic credit insertion in the editor: include the credit when preparing your distribution. Credit is also encouraged for noncommercial games relying only on the base licence. All redistributed Luna software or supplied Luna material must retain the applicable required notices.
